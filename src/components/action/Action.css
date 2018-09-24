@@ -1,0 +1,33 @@
+
+.action .disabled-btn, .action .closed-btn, .action .opened-btn {
+    display: inline-block;
+    height: 32px;
+    cursor: pointer;
+    float: right;
+}
+
+.action .disabled-btn {
+    color: #b7b7b7 !important;
+}
+
+.action .opened-btn {
+    border: 1px solid #d6d6d6;
+    color: #397adf;
+    border-radius: 15% 15% 0 0;
+}
+
+.action .card {
+    border-radius: 0;
+    border: 1px solid #d6d6d6;
+    padding: 1rem;
+}
+
+.action i.material-icons.md-dark {
+    font-size: 29px;
+    color: inherit;
+}
+
+.action .collapse, .collapsing {
+    position: relative;
+    top: -5px;
+}

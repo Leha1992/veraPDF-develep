@@ -1,0 +1,16 @@
+.check-box-container {
+    display: inline-block;
+}
+
+.check-box-container .check-box {
+    cursor: pointer;
+    display: inline-block;
+}
+
+.check-box-container .title {
+    padding-left: 0.5rem;
+    position: relative;
+    top: -7px;
+    display: inline-block;
+}
+

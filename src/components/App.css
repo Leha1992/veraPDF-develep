@@ -1,0 +1,37 @@
+.app {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 50px auto 50px;
+    grid-template-areas: "header" "article" "footer";
+}
+
+header {
+    grid-area: header;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(to right, #141414, #4b4b4b, #141414);
+    color: #ffffff;
+    padding-right: 15px;
+}
+
+header img {
+    width: auto;
+    height: 50px;
+}
+
+header h2 {
+    margin-bottom: 0;
+}
+
+article {
+    grid-area: article;
+}
+
+footer {
+    z-index: 1000;
+    grid-area: footer;
+    background-color: #f0f0f0;
+    box-shadow: 0 -1px 7px 0 #c2c5cdbf;
+}

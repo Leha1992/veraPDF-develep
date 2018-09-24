@@ -1,0 +1,28 @@
+.selected-files .hide-btn {
+    color: #3572cf;
+    float: right;
+    text-align: right;
+    cursor: pointer;
+}
+
+.selected-files .collapsing {
+    top: 0;
+}
+
+.selected-files .files-button{
+    text-align: right;
+    width: 100%;
+    display: inline-block;
+    cursor: pointer;
+    color: #28a745;
+}
+
+.selected-files .files-button .material-icons{
+    font-size: 30px;
+}
+
+.selected-files .material-icons.md-dark{
+    color: inherit;
+}
+
+

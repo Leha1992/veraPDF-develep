@@ -1,0 +1,22 @@
+.file {
+    margin: 0 0 0.2rem 0;
+}
+
+.file .del-btn {
+    height: 30px;
+    clear: right;
+    float: right;
+    text-align: right;
+    cursor: pointer;
+    color: #cf3f4e;
+}
+
+.file .del-btn .material-icons.md-dark {
+    font-size: 28px;
+}
+
+.file .path {
+    padding-left: 0.5rem;
+    position: relative;
+    top: -5px;
+}
